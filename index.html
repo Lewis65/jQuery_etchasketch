@@ -1,12 +1,31 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 		<title>The Odin Project: jQuery Etch-a-Sketch</title>
 		<link rel="stylesheet" href="stylesheet.css" type="text/css"/>
 		<script src="script.js"></script>
 	</head>
 	<body>
 		<div id="wrapper">
+			<div class="input">
+				<div id= "count">
+					<span>Number of rows/columns:</span>
+					<div id="countwrap">
+						<form>
+							<input id="countinput" type="text"/>
+							<div id="gobutton"><span>Go</span></div>
+						</form>
+					</div>
+				</div>
+				<div id="clear">
+
+				</div>
+			</div>
+			<div id="main">
+				<table id="table">
+				</table>
+			</div>
 		</div>
 	</body>
 </html>
